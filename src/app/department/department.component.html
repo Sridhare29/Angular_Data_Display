@@ -1,0 +1,22 @@
+<!-- HTML Template -->
+<h2>Department</h2>
+
+<table class="department-table">
+  <thead>
+    <tr>
+      <th>DepartmentID (PK)</th>
+      <th>DepartmentName</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let department of departments">
+      <td>{{ department.DepartmentID }}</td>
+      <td>{{ department.DepartmentName }}</td>
+      <td>
+        <button class="action-button" (click)="editDepartment(department)">Edit</button>
+        <button class="action-button" (click)="deleteDepartment(department)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

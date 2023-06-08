@@ -1,0 +1,30 @@
+<!-- HTML Template -->
+<h2>Student</h2>
+
+<table class="student-table">
+  <thead>
+    <tr>
+      <th>StudentID (PK)</th>
+      <th>StudentName</th>
+      <th>Course</th>
+      <th>Specialization</th>
+      <th>Percentage</th>
+      <th>DepartmentID (FK)</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{ student.StudentID }}</td>
+      <td>{{ student.StudentName }}</td>
+      <td>{{ student.Course }}</td>
+      <td>{{ student.Specialization }}</td>
+      <td>{{ student.Percentage }}</td>
+      <td>{{ student.DepartmentID }}</td>
+      <td>
+        <button class="action-button" (click)="editStudent(student)">Edit</button>
+        <button class="action-button" (click)="deleteStudent(student)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,24 @@
+/* CSS Styles */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: bisque;
+  }
+  
+
+  
+  .department-section,
+  .student-section {
+    margin-right: 20px;
+  }
+  
+  .department-section h2,
+  .student-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+
+  

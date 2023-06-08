@@ -1,0 +1,31 @@
+{
+    "departments": [
+      {
+        "DepartmentID": 1,
+        "DepartmentName": "ECE"
+      },
+      {
+        "DepartmentID": 2,
+        "DepartmentName": "CSE"
+      }
+    ],
+    "students": [
+      {
+        "StudentID": 1,
+        "StudentName": "Santhosh",
+        "Course": "Embeled system",
+        "Specialization": "Electronics",
+        "Percentage": 90,
+        "DepartmentID": 1
+      },
+      {
+        "StudentID": 2,
+        "StudentName": "Dhanesha",
+        "Course": "ML&AI",
+        "Specialization": "Computer",
+        "Percentage": 85,
+        "DepartmentID": 2
+      }
+    ]
+  }
+  
